@@ -8,37 +8,26 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Hi everyone! I’m <span className="purple">Pavan Chinta</span>{" "}
+            from <span className="purple">Hyderabad, India</span>.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            I’m a{" "}
+            <span className="purple">QA Automation Engineer</span> with 3+ years of experience in automation testing, API validation, and Python-based solutions.{" "}
+            <span className="purple">I specialize in building scalable automation frameworks using Selenium, Pytest, and REST APIs.</span>.
+            <br />I have also worked on projects in{" "}
+            <span className="purple">Data Analytics and Machine Learning</span> applying Python and SQL to solve real-world problems.{" "}
+            
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+     
           </p>
 
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
-            </li>
-          </ul>
+
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Focused on delivering reliable automation solutions and data-driven insights."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Pavan Chinta</footer>
         </blockquote>
       </Card.Body>
     </Card>

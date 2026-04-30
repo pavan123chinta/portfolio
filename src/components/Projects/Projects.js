@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import ecommerce from "../../Assets/Projects/ecommerce.jpeg";
+import api from "../../Assets/Projects/api.png";
+import healthcare from "../../Assets/Projects/Healthcare.png";
+import employee from "../../Assets/Projects/Employee.jpeg";
+import sales from "../../Assets/Projects/Sales.jpeg";
+import loan from "../../Assets/Projects/Loan.jpeg";
 
 function Projects() {
   return (
@@ -23,70 +23,63 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={ecommerce}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="E-Commerce UI Automation Framework (Selenium + PyTest)"
+              description="Designed and implemented an end-to-end UI test automation framework using Selenium WebDriver and PyTest. Applied Page Object Model (POM) for scalability and reusability, automated critical user workflows, and reduced manual regression effort."
+              ghLink="https://github.com/pavan123chinta/ecommerce-ui-automation-framework"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
-            />
+             imgPath={employee}
+             isBlog={false}
+             title="Employee Attrition Analysis (Python, Pandas, EDA)"
+             description="Performed exploratory data analysis (EDA) on employee datasets using Python (Pandas, Matplotlib) to identify key factors influencing attrition. Derived actionable insights to support employee retention strategies."
+             ghLink="https://github.com/pavan123chinta/Employee_Turnover_Analytics"
+           />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
+             imgPath={sales}
+             isBlog={false}
+             title="Sales Data Analysis (Python + SQL + Visualization)"
+             description="Analyzed sales data using Python and SQL to identify trends, region-wise performance, and product insights. Performed data cleaning and visualization to support data-driven business decisions."
+             ghLink="https://github.com/pavan123chinta/Sales_Analysis"
+          />
+        </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
+             imgPath={api}
+             isBlog={false}
+             title="Scalable REST API Automation Framework (Python Requests)"
+             description="Developed a scalable API automation framework using Python Requests library. Implemented JSON schema validation, reusable test utilities, and parallel execution to ensure robust API testing."
+             ghLink="https://github.com/pavan123chinta/scalable_api_automation_framework"
+          />
+        </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
+             imgPath={healthcare}
+             isBlog={false}
+             title="Healthcare Web Automation Testing (Selenium)"
+             description="Automated healthcare web application workflows including UI validation and data verification using Selenium. Designed reusable components and ensured cross-browser compatibility for reliable test execution."
+             ghLink="https://github.com/pavan123chinta/healthcare-automation-framework"
+          />
+        </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+             imgPath={loan}
+             isBlog={false}
+             title="Loan Approval Analysis (Python, Data Preprocessing)"
+             description="Analyzed loan datasets to identify key factors affecting loan approval decisions. Applied data preprocessing and feature analysis using Python to derive insights for financial risk assessment."
+             ghLink="https://github.com/pavan123chinta/House_Loan_Data_Analysis" 
+          />
+        </Col>
         </Row>
       </Container>
     </Container>

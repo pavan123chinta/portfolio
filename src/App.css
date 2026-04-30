@@ -36,3 +36,74 @@
     transform: rotate(360deg);
   }
 }
+
+/* ===== Techstack & Toolstack Styling (Premium) ===== */
+
+.tech-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2.5rem;
+  padding: 18px;
+  margin: 10px;
+
+  border-radius: 14px;
+  border: 1px solid rgba(199, 112, 240, 0.25);
+
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(6px);
+
+  transition: all 0.3s ease-in-out;
+}
+
+/* Text under icon */
+.tech-icons span {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: #cfcfcf;
+  transition: 0.3s;
+}
+
+/*  Premium Hover Effect */
+.tech-icons:hover {
+  transform: translateY(-8px) scale(1.08);
+  color: #c770f0;
+
+  border: 1px solid #c770f0;
+
+  box-shadow: 
+    0 0 15px rgba(199, 112, 240, 0.6),
+    0 0 30px rgba(199, 112, 240, 0.3);
+}
+
+/* Text glow on hover */
+.tech-icons:hover span {
+  color: #ffffff;
+}
+
+/* ===== Heading ===== */
+.project-heading {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* ✅ ADD THIS BELOW EVERYTHING (at the end) */
+
+.nav-link {
+  color: white;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #c770f0;
+}
+
+.nav-link.active {
+  color: #c770f0 !important;
+  border-bottom: 2px solid #c770f0;
+  padding-bottom: 2px;
+}
