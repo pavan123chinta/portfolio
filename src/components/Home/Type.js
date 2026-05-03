@@ -1,21 +1,10 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
 
 function Type() {
   return (
-    <Typewriter
-      options={{
-        strings: [
-          "QA Automation Engineer",
-          "Data Analyst | SQL | Python",
-          "AI/ML Practitioner",
-          "Aspiring Data Engineer",
-        ],
-        autoStart: true,
-        loop: true,
-        deleteSpeed: 50,
-      }}
-    />
+    <h2 className="purple">
+      QA Automation Engineer | Python Automation Engineer | Data Analyst
+    </h2>
   );
 }
 
